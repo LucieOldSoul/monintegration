@@ -1,0 +1,22 @@
+
+a{
+    color: black;
+}
+.div-padding{
+    padding: 75px;
+}
+.div-color{
+    background-color: #FFC1D8;
+  
+
+}
+#form-div{
+    width: 50%;
+    background-color: grey;
+    padding: 20px;
+
+}
+
+.title-center{
+    text-align: center;
+}

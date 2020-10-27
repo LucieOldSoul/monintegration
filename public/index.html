@@ -17,23 +17,20 @@
 
 <body>
 
-<!--HEADER-->
-    <header class="sticky-top" id="header">
+    <!--HEADER-->
+    <header id="header">
         <!--NAVBAR-->
-        <div class="div-nav container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Délices & Pâtisserie</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-link" href="#">About</a>
                         <a class="nav-link" href="#">Product</a>
                         <a class="nav-link" href="#">Contact</a>
-                       
+
                     </div>
                 </div>
             </nav>
@@ -41,13 +38,81 @@
     </header>
     <!--END HEADER-->
 
-    <main class="container">
-        <div class="div-color" class="row">
+    <main class="container-fluid">
+        <!--DIV 1-->
+        <div class="row div-padding div-color">
             <div class="col-xs-12 col-md-5">
                 <h1>Délices & Pâtisseries</h1>
+                <p>
+                    Située au coeur de Paris dans le 4e arrondissement, notre boutique vous accueille du lundi au samedi
+                    de 7h à 20h.
+
+                    Que vous soyez plutôt macarons pour une petite faim ou pièce montée pour les grandes occasions, il y
+                    en a pour tous les goûts !
+
+                    Venez découvrir nos nouvelles confections aux saveurs inédites :)
+                </p>
+                <button type="button" class="">En savoir plus</button>
+            </div>
+
+            <div class="col-xs-12 col-md-7 ">
+                <div class="float-right" id="form-div">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">N° de commande</label>
+                            <input type="text" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Code reçu par SMS</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <button type="submit" class="">Envoyer</button>
+                        <a href="#">Mot de passe oublié</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--FIN DIV 1-->
+        <!--DIV 2-->
+        <div class="row div-padding">
+            <div class="col-xs-12 col-md-12 title-center">
+            <h2>Nos pièces montées</h2>
+            </div>
+            <div class="col-xs-12 col-md-1">
+                <img src="../images/pièce montée 1.jpg" alt="pièce montée 1">
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+                <p>Découvrez nos pièces montées pour mariage, anniversaires et autres occasions spéciales !
+                    Feuilletez notre catalogue ou demandez votre création sur mesure.
+                    A partir de 8 personnes.</p>
             </div>
         </div>
 
+        <div class="row div-padding">
+       
+            <div class="col-xs-12 col-md-6">
+                <p>Découvrez nos pièces montées en chou pour vos baptêmes, fiançailles et autres occasions spéciales !
+                    Feuilletez notre catalogue ou demandez votre création sur mesure.
+                    A partir de 6 personnes.</p>
+            </div>
+            <div class="col-xs-12 col-md-1">
+                <img src="../images/pièce montée 2.jpg" alt="pièce montée 2">
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        </div>
+        <!--FIN DIV 2-->
     </main>
 </body>
 

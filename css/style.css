@@ -3,8 +3,16 @@ a{
     color: black;
 }
 .div-padding{
-    padding: 75px;
+    padding: 50px 75px 50px 75px;
+
 }
+
+
+.div-padding-side{
+padding-left: 75px;
+padding-right: 75px;
+}
+
 .div-color{
     background-color: #FFC1D8;
   
@@ -19,4 +27,38 @@ a{
 
 .title-center{
     text-align: center;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.img-right{
+    text-align: right;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.div-img-big{
+    text-align: right;
+}
+
+.img-310px{
+    height: 420px;
+    width: 420px;
+}
+
+.devanture {
+    height: 380px;
+    width: 530px;
+}
+
+.plan{
+    height: 265px;
+    width: 445px;
 }

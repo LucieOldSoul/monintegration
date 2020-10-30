@@ -40,6 +40,7 @@
     <!--END HEADER-->
 
     <main class="container-fluid">
+        
         <!--DIV 1-->
         <div class="row div-padding div-color">
             <div class="col-xs-12 col-md-5">
@@ -47,13 +48,13 @@
                 <p>
                     Située au coeur de Paris dans le 4e arrondissement, notre boutique vous accueille du lundi au samedi
                     de 7h à 20h.
-
+                    <br><br>
                     Que vous soyez plutôt macarons pour une petite faim ou pièce montée pour les grandes occasions, il y
                     en a pour tous les goûts !
-
+                    <br><br>
                     Venez découvrir nos nouvelles confections aux saveurs inédites :)
                 </p>
-                <button type="button" class="">En savoir plus</button>
+                <button type="button" class="bouton">En savoir plus</button>
             </div>
 
             <div class="col-xs-12 col-md-7 ">
@@ -69,8 +70,8 @@
                             <input type="text" class="form-control">
                         </div>
 
-                        <button type="submit" class="">Envoyer</button>
-                        <a href="#">Mot de passe oublié</a>
+    
+                        <a class="mdp-oublie" href="#">Je n'ai pas reçu de code</a>
                     </form>
                 </div>
             </div>
@@ -84,7 +85,7 @@
         <div class="row div-padding">
             <div class="row">
                 <div class="col-xs-12 col-md-12 title-center">
-                    <h2>Nos pièces montées</h2>
+                    <h2 class="h2-div-2">Nos pièces montées</h2>
                 </div>
                 <div class="col-xs-12 col-md-3">
                     <img src="../images/pièce montée 1.jpg" alt="pièce montée 1">
@@ -125,15 +126,15 @@
             </div>
         </div>
 
-        <div class="row div-padding div-color">
+        <div class="row div-padding div-color div-big-piece-montee">
             <div class="col-xs-12 col-md-6">
 
-                <ul>
+                <ul id="liste-ingredients">
                     <li>Saveur: Framboise</li>
                     <li>Glaçage: Vanille</li>
                     <li>Décoration: Roses</li>
                 </ul>
-                <button type="button" class="">En savoir plus</button>
+                <button type="button" id="btn-commander" class="bouton">Commander</button>
 
             </div>
             <div class="col-xs-12 col-md-6 div-img-big">
@@ -151,30 +152,30 @@
 
         <div class="row div-padding">
             <div class="col-xs-12 col-md-3">
-                <img src="../images/macaron 1.jpg">
+                <img class="vignette-img" src="../images/macaron 1.jpg">
                 <h3 class="title-center">Vanille</h3>
 
-                <p>Toutes les saveurs de la vanille Bourbon en une bouchée !</p>
+                <p class="p-vignette">Toutes les saveurs de la vanille Bourbon en une bouchée !</p>
             </div>
             <div class="col-xs-12 col-md-3">
-                <img src="../images/macaron 2.jpg">
+                <img class="vignette-img" src="../images/macaron 2.jpg">
                 <h3 class="title-center">Pistache</h3>
 
-                <p>Pour les plus gourmands !</p>
+                <p class="p-vignette">Pour les plus gourmands !</p>
             </div>
 
             <div class="col-xs-12 col-md-3">
-                <img src="../images/macaron 3.jpg">
+                <img class="vignette-img" src="../images/macaron 3.jpg">
                 <h3 class="title-center">Chocolat</h3>
 
-                <p>Fondez pour le chocolat !</p>
+                <p class="p-vignette">Fondez pour le chocolat !</p>
             </div>
 
             <div class="col-xs-12 col-md-3">
-                <img src="../images/macaron 4.jpg">
+                <img class="vignette-img" src="../images/macaron 4.jpg">
                 <h3 class="title-center">Framboise</h3>
 
-                <p>Savourez la légèreté du fruit dans une gourmandise !</p>
+                <p class="p-vignette">Savourez la légèreté du fruit dans une gourmandise !</p>
             </div>
         </div>
 
@@ -184,14 +185,14 @@
         <!--DIV 5-->
         <div class="row div-padding div-color">
             <div class="col-xs-12 col-md-12">
-                <h2>Notre boutique</h2>
+                <h2 class="title-notre-boutique">Notre boutique</h2>
             </div>
             <div class="col-xs-12 col-md-6">
                 <img class="devanture" src="../images/devanture.jpg" alt="devanture">
             </div>
             <div class="col-xs-12 col-md-6">
                 <p>
-                    <ul>
+                    <ul class="liste-acces">
                         <li>Accès :</li>
                         <li>Saint-Sébastien - Froissart (ligne 8)</li>
                         <li>Chemin Vert (ligne 8)</li>
@@ -226,6 +227,11 @@
 
         <!--FIN DIV 6-->
 
+        <!--FOOTER-->
+        <footer>
+            <p class="title-center">Tous droits réservés ©</p>
+        </footer>
+        <!--END FOOTER-->
     </main>
 </body>
 
